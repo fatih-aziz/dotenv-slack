@@ -1,0 +1,16 @@
+{
+  "name": "dotenv-slack",
+  "description": "Share ENV App to your team via slack channel with slack bot webhook.",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "env:bc": "node dotenv-slack.js"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "dotenv": "^8.2.0",
+    "fs": "^0.0.1-security",
+    "minimist": "^1.2.5"
+  },
+  "devDependencies": {}
+}
